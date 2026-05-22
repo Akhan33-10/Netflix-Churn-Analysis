@@ -39,3 +39,5 @@ data analysis and Power BI for visualization.
 - Churn by satisfaction score
 - Month over month churn trend
 - Churn by watch time category
+## 📸 Dashboard Preview
+![Netflix Churn Dashboard](Dashboard%20(2).png)
