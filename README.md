@@ -33,6 +33,16 @@ for visualization.
 
 ---
 
+## 📂 Project Structure
+Netflix-Churn-Analysis/
+│
+├── Netflix_Churn_Dashboard.pbix   # Power BI dashboard
+├── Netflix_churn_Dashboard.png    # Dashboard screenshot
+├── netflix_churn_analysis.sql     # All SQL queries
+└── README.md
+
+---
+
 ## 📊 Dashboard Pages
 
 ### Page 1 — Dashboard
@@ -60,30 +70,30 @@ for visualization.
 ### 📊 Overview
 - 1,000 total customers analyzed
 - 539 customers churned
-- Overall churn rate: **53.9%**
+- Overall churn rate: 53.9%
 - More than half of customers left — critical issue!
 
 ### 🗓️ Monthly Trend
 | Month | Churned |
 |-------|---------|
-| April | **159** — highest! |
+| April | 159 — highest! |
 | October | 111 |
 | January | 104 |
 | March | 93 |
 | May | 60 |
-| November | **12** — lowest! |
+| November | 12 — lowest! |
 
 ### 💳 Payment History
 | Payment Type | Churned |
 |-------------|---------|
-| Delayed | **273** |
+| Delayed | 273 |
 | On-Time | 266 |
 Delayed payers churn more — early warning sign!
 
 ### 📦 Subscription Plan
 | Plan | Churned |
 |------|---------|
-| Standard | **188** — highest |
+| Standard | 188 — highest |
 | Premium | 176 |
 | Basic | 175 |
 All plans churn almost equally — price is NOT the issue!
@@ -91,11 +101,11 @@ All plans churn almost equally — price is NOT the issue!
 ### 🌍 Region Analysis
 | Region | Churned |
 |--------|---------|
-| Asia | **114** — highest |
+| Asia | 114 — highest |
 | Africa | 113 |
 | Europe | 108 |
 | North America | 103 |
-| South America | **101** — lowest |
+| South America | 101 — lowest |
 
 ### ⌚ Watch Time
 - Low watch time users churn most (54.29%)
@@ -134,10 +144,10 @@ All plans churn almost equally — price is NOT the issue!
 ---
 
 ## 🏆 Ideal Customer Profile (Low Churn Risk)
-- ✅ On-Time payment history
-- ✅ High watch time
-- ✅ Active content engagement
-- ✅ South America region
+- On-Time payment history
+- High watch time
+- Active content engagement
+- South America region
 
 ---
 
@@ -148,42 +158,22 @@ Created custom Power BI theme matching Netflix branding:
 - Text: #FFFFFF (white)
 - Cards: #221F1F (dark gray)
 
-```json
-{
-  "name": "Netflix Theme",
-  "dataColors": [
-    "#E50914",
-    "#FF6B6B",
-    "#B9090B",
-    "#FF4444",
-    "#CC0000",
-    "#FF0000"
-  ],
-  "background": "#141414",
-  "foreground": "#FFFFFF",
-  "tableAccent": "#E50914"
-}
-```
+---
+
+## 📸 Dashboard Screenshot
+
+### Page 1 — Dashboard
+![Netflix Dashboard](Netflix_churn_Dashboard.png)
 
 ---
 
 ## 📁 Files
 | File | Description |
 |------|-------------|
-| `netflix_churn_analysis.sql` | All SQL queries |
 | `Netflix_Churn_Dashboard.pbix` | Power BI dashboard |
-| `netflix_theme.json` | Custom Netflix theme |
-| `screenshots/netflix_dashboard.png` | Dashboard screenshot |
-| `screenshots/netflix_insights.png` | Key insights screenshot |
-
----
-
-## 📸 Dashboard Screenshots
-
-### Page 1 — Dashboard
-![Netflix Dashboard](Netflix_churn_dashboard.png)
-### Page 2 — Key Insights
-
+| `Netflix_churn_Dashboard.png` | Dashboard screenshot |
+| `netflix_churn_analysis.sql` | All SQL queries |
+| `README.md` | Project documentation |
 
 ---
 
